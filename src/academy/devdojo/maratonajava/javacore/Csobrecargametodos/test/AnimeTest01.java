@@ -4,9 +4,7 @@ import academy.devdojo.maratonajava.javacore.Csobrecargametodos.dominio.Anime;
 
 public class AnimeTest01 {
     public static void main(String[] args) {
-        Anime anime = new Anime();
-        //anime.init("Ajudama Drive", "TV", 12);
-        anime.init("Ajudama Drive", "TV", 12, "Ação");
+        Anime anime = new Anime("Haikyuu", "TV", 12, "Ação", "Production IG");
         anime.imprime();
     }
 }
