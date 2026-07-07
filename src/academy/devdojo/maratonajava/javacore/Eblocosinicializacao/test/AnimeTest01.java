@@ -4,7 +4,10 @@ import academy.devdojo.maratonajava.javacore.Eblocosinicializacao.domain.Anime;
 
 public class AnimeTest01 {
     public static void main(String[] args) {
-        Anime anime = new Anime();
-        System.out.println("Nome: " + anime.getEpisodios());
+        Anime anime = new Anime("One Piece");
+
+        for (int episodio : anime.getEpisodios()) {
+            System.out.print(episodio + " ");
+        }
     }
 }
